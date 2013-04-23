@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+/*===================================================================================================
+ *	preferences.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Defines the basic layout of the app's preference screen.  
+ * 
+ * 	Minor: 
+ * 
+ *  Notes: 
+ *=================================================================================================== 
+ */ -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/pref_username_key"
+        android:title="@string/pref_username_header"
+        android:enabled="true"
+        android:persistent="true"
+        android:summary="@string/pref_username_summary"
+        android:entries="@array/pref_username_entries"
+        android:entryValues="@array/pref_username_values"
+        android:defaultValue="@string/pref_username_default" />
+</PreferenceScreen>

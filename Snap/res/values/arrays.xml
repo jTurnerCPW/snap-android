@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*===================================================================================================
+ *	arrays.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Stores the two user-submitted LAN ID values for comparison during input. 
+ * 
+ * 	Minor: 
+ * 
+ *  Notes: 
+ *===================================================================================================
+ */ -->
+
+<resources>
+    <array name="pref_username_entries">&lt;item&gt;1&lt;/item&gt;</array>
+    <array name="pref_username_values">&lt;item&gt;1&lt;/item&gt;</array>
+</resources>

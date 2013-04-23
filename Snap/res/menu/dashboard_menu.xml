@@ -1,0 +1,26 @@
+<!--
+/*===================================================================================================
+ *	dashboard_menu.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Defines the basic layout of the main menu activated from any ABSFragActivity descendent.  
+ * 
+ * 	Minor: 
+ * 
+ *  Notes:
+ *===================================================================================================
+ */ -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+</menu>

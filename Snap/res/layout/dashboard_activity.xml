@@ -1,14 +1,32 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Dashboard" >
+<!-- 
+/*===================================================================================================
+ *	dashboard_activity.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam, CommonsWare
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Specifies prefs fragment to load into the activity.
+ * 
+ * 	Minor: 
+ * 
+ *  Notes:
+ *===================================================================================================
+ */ -->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world" />
-
-</RelativeLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:layout_margin="10sp"
+	android:orientation="vertical"
+	 >
+    	
+    <fragment
+        android:id="@+id/dashboard_fragment"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:name="com.compuware.pdp310.snap.DashboardFragment" >
+    </fragment>
+    
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+/*===================================================================================================
+ *	dashboard_gridview.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Defines the basic layout of the dashboard's grid fragment.  
+ * 
+ * 	Minor: 
+ * 
+ *  Notes: Grid may be replaced if it is determined that there is no sufficient way to provide visual 
+ *  	feeback upon user tap. 
+ *===================================================================================================
+ */ -->
+ 
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:scrollbars="none" >
+ 
+    <GridView
+       android:id="@+id/dashboard_grid"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:listSelector="@android:color/transparent"
+       android:stretchMode="columnWidth"
+       android:verticalSpacing="20.0dip"
+       android:layout_centerInParent="true"
+       android:scrollbars="none"
+      />
+    
+</RelativeLayout>

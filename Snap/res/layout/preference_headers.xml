@@ -1,0 +1,24 @@
+<!-- 
+/*===================================================================================================
+ *	preference_headers.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Defines parameters of preference headers for use with preference fragments. 
+ * 
+ * 	Minor: 
+ * 
+ *  Notes: 
+ *=================================================================================================== 
+ */ -->
+
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:fragment="com.compuware.pdp310.snap.StockPreferenceFragment"
+            android:title="@string/pref_username_header"
+            android:summary="@string/pref_username_summary">
+      <extra android:name="resource" android:value="preferences" />
+    </header>
+</preference-headers>

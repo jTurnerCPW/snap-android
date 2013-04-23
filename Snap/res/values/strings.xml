@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+/*===================================================================================================
+ *	strings.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Externalized strings.  
+ * 
+ * 	Minor: 
+ * 
+ *  Notes: Organization attempts to group strings by use case prefix.  
+ *===================================================================================================
+ */ -->
+
 <resources>
 
     <string name="app_name">Snap</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+    
+    <string name="pref_username_key">Snap_UN_PREF</string>
+    <string name="pref_username_header">Compuware LAN ID</string>
+    <string name="pref_username_summary">Please enter your Compuware LAN ID</string>
+    <string name="pref_username_confirm">Repeat to confirm:</string>
+    <string name="pref_username_default"></string>
+    <string name="pref_username_hint">ex:abcbcd0</string>
+    
+    <string name="menu_settings">TODO:settings</string>
+    
+    <string name="dialog_confirm">Okay</string>
+    <string name="dialog_cancel">Cancel</string>
 
 </resources>

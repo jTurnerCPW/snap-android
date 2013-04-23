@@ -1,3 +1,20 @@
+<!-- 
+/*===================================================================================================
+ *	styles.xml
+ *	
+ *	Authors: Jackson Turner
+ *	Supporting Contributors: Michael Allon, Richard Kenny, Josh Nimtz, Kim Pilbeam, Vincent Sam
+ *	
+ * 	Last Edit: 4/23/2103
+ * 
+ * 	Major: Defines the basic app styling.  
+ * 
+ * 	Minor: 
+ * 
+ *  Notes: 
+ *===================================================================================================
+ */ -->
+ 
 <resources>
 
     <!--
